@@ -3,8 +3,8 @@
 print("Loading module. Please wait...")
 import sys,os,src.core.setcore
 	
-MAIN="Mac shell script payload generator (by @NathanielHugo)"
-AUTHOR="Nathiel Hugo"
+MAIN="Mac shell script payload generator (by @evvanErb)"
+AUTHOR="Evvan Erb"
 
 def print_title():
         print("\n\n")
