@@ -10,7 +10,7 @@ def print_title():
         print("\n\n")
         print("*"*56)
         print("*" + " "*54 + "*")
-        print("*Mac shell script payload generator (by @evvanErb)*")
+        print("*Mac shell script payload generator (by @evvanErb)     *")
         print("*" + " "*54 + "*")
         print("*"*56)
         print("\nThis module will generate a shell scirpt to create a python meterpreter reverse tcp backdoor in a mac.")
